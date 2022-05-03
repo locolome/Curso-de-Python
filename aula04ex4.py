@@ -1,0 +1,11 @@
+#Exercício 4
+nome=input('Digite seu nome completo:')
+x=nome.lower()
+y=nome.upper()
+print ('Seu nome completo com todas as letras minúsculas é: {}, e com as letras maiúsculas é: {}'.format(x,y))
+l=len(nome)
+print('Seu nome têm {} letras ao todo'.format(l))
+s=nome.split(' ')
+p=nome.find(' ')
+w=s.count(0)
+print('Seu primeiro nome tem: {} letras.'.format(w))
