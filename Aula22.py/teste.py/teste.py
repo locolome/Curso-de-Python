@@ -2,7 +2,7 @@ lista=['Janaiana', 'José', 'Maria', 'Carlos']
 listaa=['José', 'Pedro']
 for n in range(0, len(lista)):
 
-lista.append('Jorge')#adiciona no final
+    lista.append('Jorge')#adiciona no final
 
 lista.insert(0, 'Jorge')#adiciona com precisão
 
@@ -28,7 +28,7 @@ print(lista.count('José'))
 
 print(len(lista))
 
-print(lista.index('Janaiana'))
+print(lista.index('Janaiana')) #acha o indice de um termo
 
 for indice,nome in enumerate(lista):
     print(f'{nome} está armazanado no índice {indice}')
