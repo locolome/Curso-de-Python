@@ -22,7 +22,7 @@ for index,num in enumerate(lista):
     if num<menor:
         menor=num
 
-b=round(geometric_mean([menor,maior],)
+b=round(geometric_mean([menor,maior],))
 
 print(f'A média geométrica de {menor} e {maior} é {b}.')
 
