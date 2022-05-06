@@ -21,7 +21,7 @@ def maior(*num):#receber os valores sem precisar da lista
         elif valor>maior:
             maior=valor
         cont+=1
-    print(f'Foram informados {cont} valores ao todo.')
+    print(f'\nForam informados {cont} valores ao todo.')
     print(f'O maior valor informado é {maior}.')
 
 #programa principal
