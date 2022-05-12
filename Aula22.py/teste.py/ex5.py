@@ -32,7 +32,7 @@ menor=min(lista)
 maior=max(lista)
 media_geo=sqrt(menor*maior)
 print(f'Lista: {lista}')
-print(f'Média gometrica entre {menor} e {maior} é igual a {media_geo} ')
+print(f'Média geometrica entre {menor} e {maior} é igual a {media_geo} ')
 
     
 
